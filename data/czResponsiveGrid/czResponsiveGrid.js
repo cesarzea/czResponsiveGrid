@@ -1,16 +1,15 @@
-/**
- * Author: César Pedro Zea Gómez
- * License: Request your "gratis" license to cesarzea@jaunesistemas.com
+/*
+ * czResponsiveGrid. V1.0b
  *
- * Documentation, examples and more info:
+ * Author & Copyright (c) 2021. César Pedro Zea Gómez <cesarzea@jaunesistemas.com>
+ * Contact to request your "free" license, any question or request or to hire me as a freelancer (freelance from 1999)
  *
- * http://www.cesarzea.com
- * http://www.cesarzea.com/jsResponsiveGrid
+ * More information at : https://www.cesarzea.com
+ * Documentation       : https://www.cesarzea.com/czResponsiveGrid
+ * GitHub repo         : https://github.com/cesarzea/czResponsiveGrid
  *
- * Versión: 0.1. - 20210510.1900
+ * Please, use the issues section of the Git repository to report bugs or request improvements.
  *
- * Coming soon in: (maybe already?)
- * https://github.com/cesarzea/czResponsiveGrid
  */
 Ext.define('czResponsiveGrid', {
     extend: 'Ext.plugin.Abstract',
