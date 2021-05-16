@@ -1,0 +1,39 @@
+
+.markdown p {
+    line-height: 1.5rem;
+    font-family: 'Open Sans', Helvetica-Neue, Arial, sans-serif;
+}
+
+.markdown table, td, th {
+    border: 1px solid lightgray;
+}
+
+.markdown td, th {
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.markdown table {
+    border-collapse: collapse;
+}
+
+.markdown img {
+    margin: 10px 0 10px 10px;
+}
+
+.markdown ul {
+    margin-block-start: 5px;
+}
+
+.markdown li {
+    line-height: 1.4rem;
+}
+
+
+.margin900 {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    border-left: 1px solid lightgrey !important;
+    border-right: 1px solid lightgrey !important;
+}

@@ -1,0 +1,78 @@
+{
+
+  "pageTitle": "César Zea - Responsive Grid PlugIn for Sencha Grid Modern",
+  "topBarTitle": "César Zea - Responsive Grid PlugIn for Sencha Grid Modern",
+  "treeBarTitle": "Documentation",
+  "treeBarCollapsed": false,
+
+  "stylesToLoad": [
+    "../data/css/styles.css",
+    "../data/css/jsdocStyles.css",
+    "../data/css/blockquotes.css",
+    "https://vjs.zencdn.net/7.11.4/video-js.css"
+  ],
+
+  "namespaceMapping": {
+    "examples": "/data/czResponsiveGrid/examples"
+  },
+
+  "scriptsToLoad": [
+
+    "../data/extend/markdown_extend.js",
+
+    "../data/czResponsiveGrid/czResponsiveGrid.js",
+
+    "../data/czResponsiveGrid/examples/model/laureates.js",
+    "../data/czResponsiveGrid/examples/store/laureates.js",
+
+    "../data/czResponsiveGrid/examples/components/example1Grid.js",
+    "../data/czResponsiveGrid/examples/components/example1GridNoResponsive.js",
+
+    "../data/czResponsiveGrid/examples/example1/Example1Controller.js",
+    "../data/czResponsiveGrid/examples/example1/Example1Model.js",
+    "../data/czResponsiveGrid/examples/example1/Example1.js",
+
+    "../data/czResponsiveGrid/examples/splitsexample/SplitsExampleModel.js",
+    "../data/czResponsiveGrid/examples/splitsexample/SplitsExampleController.js",
+    "../data/czResponsiveGrid/examples/splitsexample/SplitsExample.js"
+
+  ],
+
+  "docsToLoad" : [
+    {
+      "type": "namespace",
+      "name": "Guide",
+      "iconCls": "fas fa-book"
+    },
+    {
+      "type": "markdown",
+      "name": "What is czResponsiveGrid",
+      "file": "../data/czResponsiveGrid/What is czResponsiveGrid.md",
+      "iconCls": "fas fa-book",
+      "namespace":  "Guide",
+      "default": true
+    },
+    {
+      "type": "markdown",
+      "name": "How to use it",
+      "file": "../data/czResponsiveGrid/configuration.md",
+      "iconCls": "fas fa-book",
+      "namespace":  "Guide"
+    },
+    {
+      "type": "markdown",
+      "name": "About and License",
+      "file": "../data/czResponsiveGrid/license.md",
+      "iconCls": "fas fa-book",
+      "namespace":  "Guide"
+    },
+    {
+      "type": "czjsdoc",
+      "name": "czResponsiveGrid API Docs",
+      "iconCls": "fas fa-tools",
+      "file": "../data/czResponsiveGrid/czResponsiveGrid.js",
+      "namespace": ""
+    }
+  ]
+}
+

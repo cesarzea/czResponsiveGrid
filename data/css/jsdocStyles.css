@@ -1,0 +1,33 @@
+
+.clsJsDocDocumentation {
+    max-width: 1000px;
+    /* margin: auto;*/
+    background-color: white;
+    padding: 10px 20px 0px 20px;
+}
+
+.clsJsDocDefault {
+    border-top: 1px solid lightgray !important;
+    max-width: 1000px;
+    background-color: white;
+    padding: 10px 20px 0px 20px;
+}
+
+.clsJsDocDefault p {
+    margin-block-start: 0;
+}
+
+.clsNamespaceSeeAlso {
+    max-width: 1000px;
+    /* margin: auto;*/
+    background-color: white;
+}
+
+.clsNamespaceSeeAlso p {
+    border: 1px solid lightgray !important;
+    max-width: 1000px;
+    /* margin: auto;*/
+    background-color: white;
+    margin: 0 10px 10px 10px;
+    padding: 10px 20px 10px 20px;
+}
